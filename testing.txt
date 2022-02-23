@@ -29,4 +29,4 @@ to rebase from dev branch to feature branch
 14. checkout to feature branch and then rebase "git rebase dev"
 
 to know which branch you are
-15. "git branch" this will show which branch you are
+15. "git branch" this will show which branch you are along with all the available branch
