@@ -24,3 +24,6 @@ to push changes to serve
 to take pull from parent branch  // taking pull from dev branch in myFeature branch
 13. first checkout the pull 
    "git checkout myFeature" and take pull "git pull origin dev"
+
+to rebase from dev branch to feature branch
+14. checkout to feature branch and then rebase "git rebase dev"
