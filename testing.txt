@@ -9,7 +9,6 @@ steps for adding remote git repo
 8. "git push origin branch-name"
 
 instead of adding remote git repo we can directly clone that remote git repo file by
-
 9. "git clone repo-url"
 
 create branch from another brach
@@ -29,4 +28,4 @@ to rebase from dev branch to feature branch
 14. checkout to feature branch and then rebase "git rebase dev"
 
 to know which branch you are
-15. "git branch" this will show which branch you are
+15. "git branch" this will show which branch you are along with all the available branch
