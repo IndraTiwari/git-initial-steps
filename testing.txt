@@ -13,4 +13,10 @@ instead of adding remote git repo we can directly clone that remote git repo fil
 9. "git clone repo-url"
 
 create branch from another brach
-10. "git checkout -b myFeature dev"
+10. "git checkout -b myFeature dev"  // creating myFeature branch from dev branch
+
+to merge changes your changes to dev
+11. checkout dev branch "git checkout dev" and then "git merge --no-ff myFeature"
+
+to push changes to serve
+12. "git push origin dev"
