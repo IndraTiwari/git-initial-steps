@@ -1,1 +1,13 @@
-testing git 
+steps for adding remote git repo
+1. created a repo in git
+2. open local folder path in cmd and do --> git init
+3. then add remote git repo --> git remote add origin url-of-git-repo
+4. then create a branch and checkout to that branch --> git checkout -b branch-name
+5. "git status" to see changed files
+6. "git add ." to add changed files
+7. git commit -m"commit message" for commiting by giving relevante message
+8. "git push origin branch-name"
+
+instead of adding remote git repo we can directly clone that remote git repo file by
+
+"git clone repo-url"
